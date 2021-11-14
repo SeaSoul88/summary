@@ -1,0 +1,53 @@
+$primary-color: #0e32d6;
+$secondaly-color: #000000;
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    color: $secondaly-color;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    color: #000000;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: #0e32d6;
+}
+a {
+    color: #0e32d6;
+}
+
+.contacts {
+    margin-bottom: 2em;
+}
+
+.contact {
+    display: flex;
+
+    &__type {
+        min-width: 90px;
+    }
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 2em;
+    &__date {
+        min-width: 185px;
+        margin-bottom: 1em;
+    }
+    &__name {
+        font-weight: bold;
+    }
+}
